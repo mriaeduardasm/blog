@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Meu Blog Pessoal</h1>
+    <p>Pensamentos, ideias e aprendizados</p>
+  </header>
+
+  <main class="container">
+    <article class="post">
+      <h2>Henrique e Juliano</h2>
+      <p class="post-date">Publicado em 10 de Agosto, 2026</p>
+      
+      <div class="post-content">
+        <p>Henrique & Juliano é uma dupla de sertanejo universitário formada pelos irmãos Ricelly Henrique Tavares Reis e Edson Alves dos Reis Junior, conhecido artisticamente como Juliano, ambos nascidos na cidade de Palmeirópolis, no interior do Tocantins.</p>
+        <p>Deixe sua curtida ou um comentário abaixo para interagirmos!</p>
+      </div>
+
+      <div>
+        <h2>Por que eu gosto deles?</h2>
+        <p>Desde pequena cresci ouvindo eles cantar, as músicas, meu pai me influenciou muito</p>
+      </div>
+
+      <div class="reactions">
+        <button id="like-btn" class="reaction-btn">
+          👍 Curtir (<span id="like-count">0</span>)
+        </button>
+        <button id="dislike-btn" class="reaction-btn">
+          👎 Descurtir (<span id="dislike-count">0</span>)
+        </button>
+      </div>
+
+      <hr>
+
+      <section class="comments-section">
+        <h3>Comentários</h3>
+
+        <form id="comment-form">
+          <input type="text" id="author-input" placeholder="Seu nome" required>
+          <textarea id="comment-input" rows="3" placeholder="Escreva seu comentário..." required></textarea>
+          <button type="submit">Enviar Comentário</button>
+        </form>
+
+        <div id="comments-list" class="comments-list">
+          </div>
+      </section>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
