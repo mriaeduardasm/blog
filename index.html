@@ -1,59 +1,1053 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Blog Pessoal</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Henrique & Juliano | Blog Oficial dos Fãs</title>
+
+    <meta name="description"
+        content="Blog dedicado à trajetória, músicas, álbuns, histórias e curiosidades de Henrique & Juliano.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-  <header>
-    <h1>Meu Blog Pessoal</h1>
-    <p>Pensamentos, ideias e aprendizados</p>
-  </header>
+    <!-- ================= HEADER ================= -->
 
-  <main class="container">
-    <article class="post">
-      <h2>Henrique e Juliano</h2>
-      <p class="post-date">Publicado em 10 de Agosto, 2026</p>
-      
-      <div class="post-content">
-        <p>Henrique & Juliano é uma dupla de sertanejo universitário formada pelos irmãos Ricelly Henrique Tavares Reis e Edson Alves dos Reis Junior, conhecido artisticamente como Juliano, ambos nascidos na cidade de Palmeirópolis, no interior do Tocantins.</p>
-        <p>Deixe sua curtida ou um comentário abaixo para interagirmos!</p>
-      </div>
+    <header class="header">
 
-      <div>
-        <h2>Por que eu gosto deles?</h2>
-        <p>Desde pequena cresci ouvindo eles cantar, as músicas, meu pai me influenciou muito</p>
-      </div>
+        <div class="logo">
+            <span>H&J</span>
+            <div>
+                <strong>HENRIQUE</strong>
+                <small>& JULIANO</small>
+            </div>
+        </div>
 
-      <div class="reactions">
-        <button id="like-btn" class="reaction-btn">
-          👍 Curtir (<span id="like-count">0</span>)
+        <button class="menu-mobile" id="menuMobile">
+            ☰
         </button>
-        <button id="dislike-btn" class="reaction-btn">
-          👎 Descurtir (<span id="dislike-count">0</span>)
-        </button>
-      </div>
 
-      <hr>
+        <nav id="nav">
 
-      <section class="comments-section">
-        <h3>Comentários</h3>
+            <a href="#inicio">Início</a>
+            <a href="#historia">História</a>
+            <a href="#henrique">Henrique</a>
+            <a href="#juliano">Juliano</a>
+            <a href="#discografia">Discografia</a>
+            <a href="#sucessos">Sucessos</a>
+            <a href="#galeria">Galeria</a>
 
-        <form id="comment-form">
-          <input type="text" id="author-input" placeholder="Seu nome" required>
-          <textarea id="comment-input" rows="3" placeholder="Escreva seu comentário..." required></textarea>
-          <button type="submit">Enviar Comentário</button>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-subtitle">
+                UMA HISTÓRIA DE MÚSICA, FAMÍLIA E SUCESSO
+            </p>
+
+            <h1>
+                Henrique <span>&</span> Juliano
+            </h1>
+
+            <p>
+                Dois irmãos. Uma paixão. Milhões de histórias
+                cantadas pelo Brasil.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#historia" class="btn btn-primary">
+                    Conheça a história
+                </a>
+
+                <a href="#discografia" class="btn btn-outline">
+                    Ver discografia
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            ↓
+        </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro section">
+
+        <div class="section-title">
+
+            <span>HENRIQUE & JULIANO</span>
+
+            <h2>
+                Uma das maiores duplas
+                do sertanejo brasileiro
+            </h2>
+
+        </div>
+
+        <div class="intro-grid">
+
+            <div>
+
+                <p class="highlight">
+                    Nascidos em Palmeirópolis, no Tocantins,
+                    os irmãos construíram uma trajetória marcada
+                    por música, parceria e proximidade com os fãs.
+                </p>
+
+                <p>
+                    Henrique & Juliano começaram a cantar juntos
+                    ainda jovens, influenciados pelo pai e pela
+                    música sertaneja.
+                </p>
+
+                <p>
+                    Ao longo dos anos, a dupla ganhou espaço no
+                    cenário nacional e passou a reunir multidões
+                    em seus shows e milhões de reproduções nas
+                    plataformas digitais.
+                </p>
+
+                <a href="#historia" class="text-link">
+                    Descobrir mais →
+                </a>
+
+            </div>
+
+            <div class="stats">
+
+                <div class="stat-card">
+                    <strong>2</strong>
+                    <span>irmãos</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>2012</strong>
+                    <span>primeiro grande projeto ao vivo</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>Milhões</strong>
+                    <span>de ouvintes e reproduções</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>Brasil</strong>
+                    <span>palcos por todo o país</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HISTÓRIA ================= -->
+
+    <section class="history section" id="historia">
+
+        <div class="section-title center">
+
+            <span>TRAJETÓRIA</span>
+
+            <h2>
+                Uma história construída juntos
+            </h2>
+
+            <p>
+                Da infância no Tocantins aos grandes palcos
+                do Brasil.
+            </p>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    INFÂNCIA
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>As primeiras influências</h3>
+
+                    <p>
+                        Henrique e Juliano cresceram em
+                        Palmeirópolis, no Tocantins, em uma
+                        família ligada à música.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    JUVENTUDE
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>O início da dupla</h3>
+
+                    <p>
+                        Os irmãos começaram a cantar juntos
+                        ainda jovens e passaram a se apresentar
+                        em festas e eventos da região.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2012
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Ao Vivo em Palmas</h3>
+
+                    <p>
+                        O projeto gravado em Palmas ajudou a
+                        impulsionar a dupla e ampliar sua
+                        presença no mercado sertanejo.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2014
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Ao Vivo em Brasília</h3>
+
+                    <p>
+                        A dupla continuou sua expansão nacional
+                        com um novo projeto ao vivo gravado
+                        em Brasília.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2015–2019
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Consolidação nacional</h3>
+
+                    <p>
+                        Projetos como Novas Histórias, O Céu
+                        Explica Tudo, Menos é Mais e Ao Vivo
+                        no Ibirapuera consolidaram a dupla.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2022+
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Manifesto Musical</h3>
+
+                    <p>
+                        A dupla entrou em uma nova fase com
+                        projetos como Manifesto Musical,
+                        mantendo sua forte presença no
+                        sertanejo contemporâneo.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HENRIQUE ================= -->
+
+    <section class="person section" id="henrique">
+
+        <div class="person-image">
+
+            <img src="henrique.jpeg"
+                alt="Henrique durante apresentação">
+
+        </div>
+
+        <div class="person-text">
+
+            <span>CONHEÇA HENRIQUE</span>
+
+            <h2>
+                Ricelly Henrique
+                Tavares Reis
+            </h2>
+
+            <p class="birth">
+                Nascido em 23 de maio de 1989
+            </p>
+
+            <p>
+                Henrique é o irmão mais velho da dupla.
+                Começou a cantar com Juliano ainda jovem,
+                incentivado pela família e principalmente
+                pelo pai.
+            </p>
+
+            <p>
+                Antes de se dedicar completamente à música,
+                Henrique chegou a cursar Direito. A carreira
+                artística, entretanto, ganhou força e passou
+                a ocupar um espaço cada vez maior em sua vida.
+            </p>
+
+            <p>
+                Fora dos palcos, Henrique mantém uma vida
+                mais reservada e divide seu tempo entre
+                família, negócios e atividades ligadas ao
+                automobilismo.
+            </p>
+
+            <div class="person-facts">
+
+                <div>
+                    <strong>Perfil</strong>
+                    <span>Mais velho da dupla</span>
+                </div>
+
+                <div>
+                    <strong>Origem</strong>
+                    <span>Palmeirópolis - TO</span>
+                </div>
+
+                <div>
+                    <strong>Família</strong>
+                    <span>Pai e irmão de Juliano</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= JULIANO ================= -->
+
+    <section class="person person-reverse section" id="juliano">
+
+        <div class="person-image">
+
+            <img src="juliano.webp"
+                alt="Juliano cantando">
+
+        </div>
+
+        <div class="person-text">
+
+            <span>CONHEÇA JULIANO</span>
+
+            <h2>
+                Edson Alves
+                dos Reis Júnior
+            </h2>
+
+            <p class="birth">
+                Nascido em 27 de novembro de 1990
+            </p>
+
+            <p>
+                Juliano é o irmão mais novo. Assim como
+                Henrique, teve desde cedo contato com a
+                música sertaneja e recebeu forte influência
+                do pai.
+            </p>
+
+            <p>
+                Conhecido por seu perfil mais tranquilo,
+                Juliano também possui interesse por
+                atividades ligadas à velocidade e
+                automobilismo.
+            </p>
+
+            <p>
+                A parceria entre os dois irmãos é um dos
+                principais elementos da identidade da dupla.
+                As decisões profissionais são construídas
+                em conjunto, reforçando a cumplicidade
+                entre eles.
+            </p>
+
+            <div class="person-facts">
+
+                <div>
+                    <strong>Perfil</strong>
+                    <span>Irmão mais novo</span>
+                </div>
+
+                <div>
+                    <strong>Origem</strong>
+                    <span>Palmeirópolis - TO</span>
+                </div>
+
+                <div>
+                    <strong>Hobby</strong>
+                    <span>Automobilismo e aviação</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DISCOGRAFIA ================= -->
+
+    <section class="discography section" id="discografia">
+
+        <div class="section-title center">
+
+            <span>DISCOGRAFIA</span>
+
+            <h2>
+                Projetos que marcaram a carreira
+            </h2>
+
+        </div>
+
+
+        <div class="album-grid">
+
+            <article class="album">
+
+                <div class="album-number">
+                    01
+                </div>
+
+                <div>
+                    <span>2012</span>
+                    <h3>Ao Vivo em Palmas</h3>
+                    <p>
+                        Um dos primeiros grandes projetos
+                        ao vivo da dupla.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    02
+                </div>
+
+                <div>
+                    <span>2014</span>
+                    <h3>Ao Vivo em Brasília</h3>
+                    <p>
+                        Projeto que ampliou a presença
+                        nacional da dupla.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    03
+                </div>
+
+                <div>
+                    <span>2015</span>
+                    <h3>Novas Histórias</h3>
+                    <p>
+                        Uma das fases mais importantes
+                        da discografia.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    04
+                </div>
+
+                <div>
+                    <span>2017</span>
+                    <h3>O Céu Explica Tudo</h3>
+                    <p>
+                        Projeto marcado por grandes
+                        sucessos.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    05
+                </div>
+
+                <div>
+                    <span>2018</span>
+                    <h3>Menos é Mais</h3>
+                    <p>
+                        Outro capítulo importante da
+                        trajetória da dupla.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    06
+                </div>
+
+                <div>
+                    <span>2020</span>
+                    <h3>Ao Vivo no Ibirapuera</h3>
+                    <p>
+                        Projeto gravado em um dos espaços
+                        mais conhecidos de São Paulo.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    07
+                </div>
+
+                <div>
+                    <span>2022</span>
+                    <h3>Manifesto Musical</h3>
+                    <p>
+                        Uma nova etapa da carreira da dupla.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    08
+                </div>
+
+                <div>
+                    <span>2023</span>
+                    <h3>To Be</h3>
+                    <p>
+                        Projeto que continuou a expansão
+                        musical da dupla.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="album">
+
+                <div class="album-number">
+                    09
+                </div>
+
+                <div>
+                    <span>2025</span>
+                    <h3>Manifesto Musical 2</h3>
+                    <p>
+                        Continuação da fase Manifesto
+                        Musical.
+                    </p>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SUCESSOS ================= -->
+
+    <section class="hits section" id="sucessos">
+
+        <div class="section-title">
+
+            <span>PLAYLIST DOS FÃS</span>
+
+            <h2>
+                Alguns dos grandes sucessos
+            </h2>
+
+        </div>
+
+
+        <div class="songs">
+
+            <button class="song">
+                <span>01</span>
+                <strong>Arranhão</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>02</span>
+                <strong>A Maior Saudade</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>03</span>
+                <strong>Liberdade Provisória</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>04</span>
+                <strong>Cuida Bem Dela</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>05</span>
+                <strong>Vidinha de Balada</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>06</span>
+                <strong>Na Hora da Raiva</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>07</span>
+                <strong>Flor e o Beija-Flor</strong>
+                <small>Participação de Marília Mendonça</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>08</span>
+                <strong>Aquela Pessoa</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+
+            <button class="song">
+                <span>09</span>
+                <strong>Quem Pegou, Pegou</strong>
+                <small>Henrique & Juliano</small>
+                <b>▶</b>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CURIOSIDADES ================= -->
+
+    <section class="curiosities section">
+
+        <div class="section-title center">
+
+            <span>VOCÊ SABIA?</span>
+
+            <h2>
+                Curiosidades sobre a dupla
+            </h2>
+
+        </div>
+
+
+        <div class="cards">
+
+            <article class="curiosity">
+
+                <div class="icon">
+                    ♫
+                </div>
+
+                <h3>Dois irmãos</h3>
+
+                <p>
+                    Henrique e Juliano são irmãos e
+                    construíram a carreira musical juntos.
+                </p>
+
+            </article>
+
+
+            <article class="curiosity">
+
+                <div class="icon">
+                    ★
+                </div>
+
+                <h3>Origem no Tocantins</h3>
+
+                <p>
+                    Os dois nasceram em Palmeirópolis,
+                    no interior do Tocantins.
+                </p>
+
+            </article>
+
+
+            <article class="curiosity">
+
+                <div class="icon">
+                    ♥
+                </div>
+
+                <h3>Vida reservada</h3>
+
+                <p>
+                    Mesmo com a enorme popularidade,
+                    os irmãos procuram preservar a
+                    vida pessoal e familiar.
+                </p>
+
+            </article>
+
+
+            <article class="curiosity">
+
+                <div class="icon">
+                    ♪
+                </div>
+
+                <h3>Escolha de repertório</h3>
+
+                <p>
+                    A dupla é conhecida pelo cuidado
+                    na escolha das músicas de seus projetos.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALERIA ================= -->
+
+    <section class="gallery section" id="galeria">
+
+        <div class="section-title center">
+
+            <span>GALERIA</span>
+
+            <h2>
+                Henrique & Juliano nos palcos
+            </h2>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item large">
+
+                <img
+                    src="Henrique-e-Juliano-7.webp"
+                    alt="Henrique e Juliano">
+
+                <div class="gallery-caption">
+                    Henrique & Juliano
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="607429848-henrique-e-juliano-divulgacao.webp"
+                    alt="Henrique e Juliano cantando">
+
+                <div class="gallery-caption">
+                    No palco
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="images.jpeg"
+                    alt="Henrique e Juliano em apresentação">
+
+                <div class="gallery-caption">
+                    Música ao vivo
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FRASE ================= -->
+
+    <section class="quote">
+
+        <div>
+
+            <span>HENRIQUE & JULIANO</span>
+
+            <h2>
+                "Ser quem sempre quiseram ser:
+                pessoas comuns que conquistaram
+                o sonho de viver para a música."
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTATO ================= -->
+
+    <section class="contact section">
+
+        <div class="section-title">
+
+            <span>FALE CONOSCO</span>
+
+            <h2>
+                Entre para a comunidade de fãs
+            </h2>
+
+            <p>
+                Envie uma mensagem para o blog.
+            </p>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="nome">
+                        Nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Seu nome"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="seu@email.com"
+                        required>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="mensagem">
+                    Mensagem
+                </label>
+
+                <textarea
+                    id="mensagem"
+                    rows="6"
+                    placeholder="Escreva sua mensagem..."
+                    required></textarea>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">
+                Enviar mensagem
+            </button>
+
+            <p id="formMessage"></p>
+
         </form>
 
-        <div id="comments-list" class="comments-list">
-          </div>
-      </section>
-    </article>
-  </main>
+    </section>
 
-  <script src="script.js"></script>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <strong>H&J</strong>
+
+                <span>
+                    HENRIQUE & JULIANO
+                </span>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#inicio">Início</a>
+                <a href="#historia">História</a>
+                <a href="#discografia">Discografia</a>
+                <a href="#galeria">Galeria</a>
+
+            </div>
+
+
+            <div class="social">
+
+                <a href="#" aria-label="Instagram">
+                    Instagram
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    YouTube
+                </a>
+
+                <a href="#" aria-label="Spotify">
+                    Spotify
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Blog Henrique & Juliano.
+                Projeto de fã, sem vínculo oficial com a dupla.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= BOTÃO VOLTAR AO TOPO ================= -->
+
+    <button id="backTop" class="back-top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
